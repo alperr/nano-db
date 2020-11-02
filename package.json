@@ -1,0 +1,12 @@
+{
+	"name": "nano-db",
+	"version": "0.0.1",
+	"license": "MIT",
+	"main": "./nano-db.js",
+	"scripts": {
+		"pub": "git add -A && git commit -m 'npm release' && git push && npm publish"
+	},
+	"dependencies": {
+		"better-sqlite3": "7.1.1"
+	}
+}
